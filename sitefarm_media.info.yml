@@ -1,0 +1,26 @@
+name: Media
+description: 'General media and media library related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - crop
+  - field
+  - file
+  - focal_point
+  - image
+  - layout_builder
+  - media
+  - media_library
+  - node
+  - path
+  - photoswipe
+  - svg_image_field
+  - sitefarm_image_styles
+  - taxonomy
+  - text
+  - user
+  - views
+package: SiteFarm
+core_incompatible: false

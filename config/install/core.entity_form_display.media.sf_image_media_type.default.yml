@@ -1,0 +1,82 @@
+uuid: 6db9f137-2b30-4bb5-8fad-e4e16b0c39a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.sf_image_media_type.field_media_image
+    - field.field.media.sf_image_media_type.field_sf_media_caption
+    - field.field.media.sf_image_media_type.field_sf_media_category
+    - image.style.thumbnail
+    - media.type.sf_image_media_type
+  module:
+    - focal_point
+    - path
+_core:
+  default_config_hash: 6typ55jVSBCqyv_IY2kCnxZZZxalPfUppQY2FPqRWCg
+id: media.sf_image_media_type.default
+targetEntityType: media
+bundle: sf_image_media_type
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_media_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      preview_link: true
+      offsets: '50,50'
+    third_party_settings: {  }
+    type: image_focal_point
+    region: content
+  field_sf_media_caption:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sf_media_category:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: bd060c23-40b4-4882-b7b1-eed2f2f9c6f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w1WaVUDZCOBREckN94u-ck-4pxEq4O1ZQD-69s61qvA
+name: 'Media Categories'
+vid: sf_media_categories
+description: 'Categories for media items to make them easier to find in the Media Library.'
+weight: 0

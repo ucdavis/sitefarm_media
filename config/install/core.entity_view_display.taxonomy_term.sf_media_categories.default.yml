@@ -1,0 +1,15 @@
+uuid: 0897f192-7610-4370-beeb-967e16895292
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sf_media_categories
+_core:
+  default_config_hash: lL9OVUTI-s00LZfngYOnMui87IFLXNf1T-pspWqxXDI
+id: taxonomy_term.sf_media_categories.default
+targetEntityType: taxonomy_term
+bundle: sf_media_categories
+mode: default
+content: {  }
+hidden:
+  description: true

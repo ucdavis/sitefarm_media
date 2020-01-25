@@ -1,0 +1,12 @@
+uuid: 270ecd84-07c6-4f3c-8572-4ab95bf7bbab
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: EnbaHYgZV4dfyYviXrHi2MpxrJUyNgkzcNW7r3c4F_o
+id: media.profile
+label: Profile
+targetEntityType: media
+cache: true

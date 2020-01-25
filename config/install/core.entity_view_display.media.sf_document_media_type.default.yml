@@ -1,0 +1,31 @@
+uuid: e3a9bcab-ddfa-4ee9-b69d-d6c8904f523e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.sf_document_media_type.field_media_file
+    - field.field.media.sf_document_media_type.field_sf_media_category
+    - media.type.sf_document_media_type
+  module:
+    - file
+_core:
+  default_config_hash: SSjoa65gIQY3Xrt10CYS-0G7NR1xYjXEITOO9r5K9ek
+id: media.sf_document_media_type.default
+targetEntityType: media
+bundle: sf_document_media_type
+mode: default
+content:
+  field_media_file:
+    weight: 0
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  created: true
+  field_sf_media_category: true
+  name: true
+  thumbnail: true
+  uid: true

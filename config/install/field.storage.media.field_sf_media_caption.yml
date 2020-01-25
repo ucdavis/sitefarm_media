@@ -1,0 +1,23 @@
+uuid: 070de508-bcad-45ff-8227-d7c2d7244a14
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 9L6AZwc4H0YoldBpKS7EhlKZaPZ4Z-XOSVa0tXZamDI
+id: media.field_sf_media_caption
+field_name: field_sf_media_caption
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,52 @@
+uuid: 172c6c23-4fdd-40a6-9b73-7495484083c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.sf_audio_media_type.field_media_audio_file
+    - field.field.media.sf_audio_media_type.field_sf_media_category
+    - image.style.medium
+    - media.type.sf_audio_media_type
+  module:
+    - file
+    - image
+_core:
+  default_config_hash: 49CuoS-qrBQjIs_zMdkDq8SvT14T7oWqMU5IPkweuVk
+id: media.sf_audio_media_type.media_library
+targetEntityType: media
+bundle: sf_audio_media_type
+mode: media_library
+content:
+  field_media_audio_file:
+    type: file_audio
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      controls: true
+      multiple_file_display_type: tags
+      autoplay: false
+      loop: false
+    third_party_settings: {  }
+  name:
+    type: string
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_sf_media_category: true
+  uid: true

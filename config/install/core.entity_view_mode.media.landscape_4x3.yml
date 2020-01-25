@@ -1,0 +1,10 @@
+uuid: f84af0b1-d609-43dc-809d-525ef960e5d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.landscape_4x3
+label: 'Landscape 4x3'
+targetEntityType: media
+cache: true

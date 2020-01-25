@@ -1,0 +1,15 @@
+uuid: 88b53b27-77cf-4729-bab1-ba8d5e3d69a2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QAdoAaUmi26w_u1r6OxuBThVO_1Gt-7kbJQH-RcyT1g
+id: sf_audio_media_type
+label: Audio
+description: 'Handles audio media files.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_audio_file
+field_map: {  }

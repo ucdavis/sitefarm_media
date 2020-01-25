@@ -1,0 +1,36 @@
+uuid: 4ada30e3-c7c3-4086-940f-c88d8a8e3dcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.landscape_16x9
+    - field.field.media.sf_image_media_type.field_media_image
+    - field.field.media.sf_image_media_type.field_sf_media_caption
+    - field.field.media.sf_image_media_type.field_sf_media_category
+    - image.style.sf_landscape_16x9
+    - media.type.sf_image_media_type
+  module:
+    - image
+_core:
+  default_config_hash: JGKLeQ13-8aZZphpEIsTCdPoBDFc6OHiqzSpnwoP83A
+id: media.sf_image_media_type.landscape_16x9
+targetEntityType: media
+bundle: sf_image_media_type
+mode: landscape_16x9
+content:
+  field_media_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: sf_landscape_16x9
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_sf_media_caption: true
+  field_sf_media_category: true
+  name: true
+  thumbnail: true
+  uid: true

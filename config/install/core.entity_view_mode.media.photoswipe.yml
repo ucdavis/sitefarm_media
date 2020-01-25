@@ -1,0 +1,12 @@
+uuid: ed10cf87-07fd-4950-9b83-24fdde0b5262
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: Cd4znlehxLcU6ulA4XWYF6bJuS5Zne-L6UZFtxjoSNc
+id: media.photoswipe
+label: Photoswipe
+targetEntityType: media
+cache: true

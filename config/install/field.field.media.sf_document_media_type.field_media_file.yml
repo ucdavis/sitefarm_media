@@ -1,0 +1,29 @@
+uuid: 10eca00f-df77-4b1e-b0aa-ee5fa0c2a67d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.sf_document_media_type
+  module:
+    - file
+_core:
+  default_config_hash: V-ZNVIM_aBHiD15FqTPM52sOYNVL6QnioL6308XRk0U
+id: media.sf_document_media_type.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: sf_document_media_type
+label: File
+description: 'You can add files of the following type: txt, doc, docx, pdf, zip'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: media/documents
+  file_extensions: 'txt doc docx pdf zip'
+  max_filesize: '10 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
